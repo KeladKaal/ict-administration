@@ -18,11 +18,17 @@ Seven lectures, 1.5 hours each. Every lecture has three short blocks (~25–30 m
 4. [Search and logging](lecture-4-search-logging/) — Elasticsearch / ELK
 5. [Storage, delivery and security](lecture-5-storage-delivery-security/) — S3, CDN, nginx, secrets
 6. [Monitoring and observability](lecture-6-monitoring-observability/) — Prometheus, Grafana, metrics/logs/traces
-7. [AI infrastructure](lecture-7-ai-infrastructure/) — n8n, agents, MCP, vector databases
+7. [AI infrastructure](lecture-7-ai-infrastructure/) — agents, tools, MCP, n8n, hosting and cost
+
+## Using AI for the labs
+
+Using an AI assistant is allowed and encouraged — but this repo is set up so it **helps you learn instead of handing you finished answers**: it works step by step, explains the reasoning, and checks your understanding before moving on.
+
+The rules live in [`AGENTS.md`](AGENTS.md) (and `CLAUDE.md` for Claude Code). Most AI tools pick these up automatically. **If yours doesn't, just point it at [`AGENTS.md`](AGENTS.md)** and ask it to follow the file.
 
 ## How this repo is organized
 
-- One folder per lecture, each with a short README describing its three blocks.
+- One folder per lecture, each with a short README describing its blocks.
 - **`main`** — everything in **English**. **`main-rus`** — the same in **Russian**.
 - Anything pushed here is mirrored in both languages: English → `main`, Russian → `main-rus`.
 

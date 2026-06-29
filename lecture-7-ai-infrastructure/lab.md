@@ -12,6 +12,8 @@ This lab pulls together everything from the lecture: agents, tools, toolkit, ski
 
 Pick a process that a devops engineer could automate to make life easier — either **for everyone in the company**, or **for one group** (e.g. developers, testers, support).
 
+You also get to invent the setting: **describe the company, the project and the people** who work there. It can be anything — a startup or a bigtech, a B2B SaaS or an open-source package, whatever you like. The only rule: both the project and the automation should **sound realistic**.
+
 Write a short description (½ page is enough):
 - **Who** it helps (all employees / a specific group).
 - **What** problem it solves and why it's annoying today.

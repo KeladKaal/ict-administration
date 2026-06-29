@@ -51,28 +51,11 @@ You must run the whole thing locally and demonstrate it working end to end.
 
 ## What to submit
 
-Put everything in a folder named after your use-case:
+Put everything in a folder named after your use-case and submit three things:
 
-1. **`README.md`** — your use-case description (Part 1) + how to run it.
-2. **The exported n8n workflow** (JSON) and a **screenshot** of the workflow on the canvas.
-3. **MCP servers** — which two (or more) you used and what each gives the agent.
-4. **AI toolkit** — the 3–5 tools (name / what / input).
-5. **Skills** — the documented know-how your agent follows.
-6. **Proof it runs** — screenshots of a successful run and the produced result (file/message). A short screen recording is welcome but optional.
-
----
-
-## Evaluation criteria
-
-| Criterion | What we look at |
-|---|---|
-| Use-case | Realistic, clearly described, clearly helps someone |
-| Workflow | Has a trigger, runs end to end, mixes AI and non-AI steps |
-| MCP servers | At least two, used meaningfully |
-| Toolkit | 3–5 tools, each documented |
-| Skills | Described — clear order and rules the agent follows |
-| Local run | Demonstrated working with a real result |
-| Understanding | You can explain *why* each part is there |
+1. **`README.md`** — your use-case description (Part 1) and how to run it locally.
+2. **The exported n8n workflow** (JSON).
+3. **AI skills** — the documented know-how your agent follows (in what order it acts and by what rules).
 
 ---
 

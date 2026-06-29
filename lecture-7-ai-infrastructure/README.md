@@ -1,9 +1,17 @@
 # Lecture 7 — AI infrastructure
 
-The new set of tools devops sets up for teams: agents, how to host them, and how to keep costs under control.
+The new layer devops sets up for teams. This lecture is split into two parts with a break in between.
 
-**Block 1 — Agents: toolkit, skills, MCP.** Why devops shows up in AI at all. What an agent is (LLM + tools + a loop). Tool/function calling as the foundation. MCP (Model Context Protocol) for giving agents access to systems and data — and devops running the MCP servers. Skills/toolkits as reusable capability sets.
+## Part 1 — Processes
 
-**Block 2 — n8n and GPU.** n8n: self-hosted workflow automation (nodes, triggers, the no-code scenario) and how devops hosts it for teams. Cloud vs self-hosted models — when to pick which (privacy, latency, control, cost). Self-hosted serving: Ollama (dev) vs vLLM/TGI (production). GPU infrastructure: why AI needs GPUs and why they're expensive.
+What modern AI is made of and how automated processes are built from it.
 
-**Block 3 — Rate limits and money.** API keys: handing out and revoking access. Rate limits and per-team quotas — protection against burning everything by accident. An LLM proxy/gateway (LiteLLM) as a single entry point to count tokens and cut access. Money: how tokens are counted, why costs spike, basic budget control.
+- **Agents and their building blocks.** Chatbot vs agent. What a tool is (description + handler). Toolkits as bundles of tools. Skills as packaged know-how. MCP (Model Context Protocol) and MCP servers as the standard way to expose tools and data — run by devops.
+- **n8n.** Self-hosted, no-code workflow automation: how steps (including AI and agent steps) are wired into a working process, and how devops hosts it for teams.
+
+## Part 2 — Administration and money
+
+Where it all runs and what it costs — the pure devops view.
+
+- **Hosting and GPU.** Cloud APIs vs self-hosted models, Ollama vs vLLM, why AI needs GPUs and why they're expensive.
+- **Access and money.** API keys, rate limits and per-team quotas, an LLM proxy/gateway as a single entry point, how tokens are counted and why costs spike.

@@ -1,32 +1,32 @@
-# Administration of Information and Communication Technologies
+# Администрирование в инфокоммуникационных технологиях
 
-> 🌐 **Language:** English (this branch `main`) · [Русская версия → branch `main-rus`](https://github.com/KeladKaal/ict-administration/tree/main-rus)
+> 🌐 **Язык:** Русский (ветка `main-rus`) · [English version → branch `main`](https://github.com/KeladKaal/ict-administration/tree/main)
 
-Educational repository for a course aimed at junior devops engineers.
+Учебный репозиторий курса для начинающих devops-инженеров.
 
-The course covers the systems that devops engineers set up for developers (and which developers then use): databases, message brokers and caches, search and logging, object storage and content delivery, monitoring, and AI infrastructure.
+Курс про системы, которые devops настраивает для разработчиков (а пользуются ими уже разработчики): базы данных, брокеры сообщений и кэш, поиск и логирование, объектное хранилище и доставка контента, мониторинг, AI-инфраструктура.
 
-## Course structure
+## Структура курса
 
-7 lectures of 1.5 hours each. Every lecture is split into 3 logical blocks of 25–30 minutes.
+7 лекций по 1,5 часа. Каждая лекция — 3 логических блока по 25–30 минут.
 
-1. Introduction, the devops role, GitLab + CI/CD
-2. Databases
-3. Message brokers and cache (Kafka, RabbitMQ, Redis)
-4. Search and logging (Elasticsearch / ELK)
-5. Storage, delivery and security (S3, CDN, nginx)
-6. Monitoring and observability (Prometheus, Grafana)
-7. AI infrastructure (n8n, agents, MCP, vector databases)
+1. Введение, роль devops, GitLab + CI/CD
+2. Базы данных
+3. Брокеры сообщений и кэш (Kafka, RabbitMQ, Redis)
+4. Поиск и логирование (Elasticsearch / ELK)
+5. Хранилище, доставка и безопасность (S3, CDN, nginx)
+6. Мониторинг и observability (Prometheus, Grafana)
+7. AI-инфраструктура (n8n, агенты, MCP, векторные БД)
 
-## Repository layout
+## Структура репозитория
 
-- **`main`** — all materials in **English**
-- **`main-rus`** — the same materials in **Russian**
+- **`main`** — все материалы на **английском**
+- **`main-rus`** — те же материалы на **русском**
 
-Anything pushed here must be mirrored in both languages: English content goes to `main`, its Russian counterpart to `main-rus`.
+Всё, что сюда пушится, дублируется на двух языках: английский контент — в `main`, его русская версия — в `main-rus`.
 
-## License
+## Лицензия
 
-© 2026 KeladKaal. Licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE).
+© 2026 KeladKaal. Лицензия [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE).
 
-You may share and adapt the material for **non-commercial** purposes, provided you give **appropriate credit** to the author.
+Материал можно распространять и адаптировать в **некоммерческих** целях при условии **указания авторства**.

@@ -62,3 +62,5 @@ Put everything in a folder named after your use-case and submit three things:
 ## How to start
 
 Open this repository with your AI assistant and ask it to help you with **Lab 7**. The assistant is set up to guide you **step by step** and check your understanding along the way — it won't hand you a finished solution, and that's on purpose. Start by describing your use-case idea and let it walk you through the rest.
+
+> **Using AI?** Make sure your assistant follows the repo's rules in [`AGENTS.md`](../AGENTS.md). Most tools pick it up automatically; if yours doesn't, point it at that file and ask it to follow it.

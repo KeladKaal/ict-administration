@@ -20,6 +20,10 @@ Seven lectures, 1.5 hours each. Every lecture has three short blocks (~25–30 m
 6. [Monitoring and observability](lecture-6-monitoring-observability/) — Prometheus, Grafana, metrics/logs/traces
 7. [AI infrastructure](lecture-7-ai-infrastructure/) — agents, tools, MCP, n8n, hosting and cost
 
+## Labs
+
+You can run the infrastructure in the labs (databases, clusters, services) **however you prefer** — locally via Docker / `docker compose`, or in Kubernetes. The choice is yours and is not spelled out in each lab. What matters is that it runs locally and you can show it works.
+
 ## Using AI for the labs
 
 Using an AI assistant is allowed and encouraged — but this repo is set up so it **helps you learn instead of handing you finished answers**: it works step by step, explains the reasoning, and checks your understanding before moving on.

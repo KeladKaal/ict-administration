@@ -1,0 +1,45 @@
+# Kafka (один брокер, режим KRaft — без ZooKeeper) + два сервиса.
+# Запуск:  docker compose up --build
+# Сервисы: http://localhost:8001 (пользователь)  и  http://localhost:8002 (сборщик)
+
+services:
+  kafka:
+    image: apache/kafka:3.8.0
+    container_name: kafka
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_LISTENERS: PLAINTEXT://:9092,CONTROLLER://:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+
+  user-service:
+    build: ./user-service
+    container_name: user-service
+    ports:
+      - "8001:8001"
+    environment:
+      KAFKA_BOOTSTRAP: kafka:9092
+      TOPIC: orders
+    depends_on:
+      - kafka
+
+  picker-service:
+    build: ./picker-service
+    container_name: picker-service
+    ports:
+      - "8002:8002"
+    environment:
+      KAFKA_BOOTSTRAP: kafka:9092
+      TOPIC: orders
+      GROUP: pickers
+      NAME: picker-1
+    depends_on:
+      - kafka

@@ -167,6 +167,12 @@ devops следит за **памятью** (главный ресурс Redis),
 
 ---
 
+## Лабораторная
+
+[Лаба 4 — Kafka руками: два сервиса и разные ситуации](lab.md): поднять Kafka с двумя готовыми сервисами (пользователь и сборщик) и на них разобрать партиции, consumer groups, lag, перечитывание и retention.
+
+---
+
 ## Что почитать
 
 - [RabbitMQ: терминология и базовые сущности](https://habr.com/ru/companies/slurm/articles/703060/) (Habr) — разбор основных понятий RabbitMQ: publisher, exchange, binding, queue, message, consumer. Хорошо дополняет часть 2.

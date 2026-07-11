@@ -37,6 +37,10 @@ For every lab:
    - all correct → move to the next step.
 6. Do **not** reveal or start the next step until the current step's questions are answered correctly.
 
+## Exception: generating throwaway services
+
+Some labs ask the student to write or **generate** a small throwaway service (e.g. a producer/consumer for Kafka, or a service to later monitor). Generate that code **directly and in full, without tutoring or questions** — programming is not the goal of this course. The learning is the devops work *around* the service (standing up and configuring Kafka, monitoring, etc.) — guide that step by step. The "don't hand out a finished solution" rule applies to the infrastructure part of the lab, not to this helper service.
+
 ## Tone
 
 Be patient, encouraging and supportive. The student is a **beginner devops engineer**. Mistakes are normal and are a teaching opportunity, not a failure.

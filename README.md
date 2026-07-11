@@ -12,7 +12,7 @@
 
 Семь лекций по 1,5 часа. Каждая — три коротких блока (~25–30 мин). Кликни по лекции, чтобы посмотреть содержание.
 
-1. [Введение, роль devops, GitLab + CI/CD](lecture-1-introduction/) — о чём курс и как код попадает на прод
+1. [Введение](lecture-1-introduction/) — организация курса и краткий план
 2. [Мониторинг и observability](lecture-2-monitoring-observability/) — Prometheus, Grafana, метрики/логи/трейсы
 3. [Базы данных](lecture-3-databases/) — PostgreSQL/MySQL: доступы, репликация, бэкапы, миграции
 4. [Брокеры сообщений и кэш](lecture-4-brokers-cache/) — Kafka, RabbitMQ, Redis

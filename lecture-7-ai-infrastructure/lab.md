@@ -55,6 +55,9 @@ You must run the whole thing locally and demonstrate it working end to end.
 
 Set up monitoring for your system. **Decide yourself which metrics matter on the dashboard**, build a dashboard from them, and then **pick 3 metrics you'd build alerts on** and explain your choice.
 
+
+Note: if the system doesn't expose Prometheus metrics itself, add a separate exporter for it.
+
 The tool is up to you.
 
 ---

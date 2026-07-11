@@ -67,6 +67,9 @@ Work through these via Kafka UI, without the command line:
 
 Set up monitoring for your Kafka. **Decide yourself which metrics matter on the dashboard**, build a dashboard from them, and then **pick 3 metrics you'd build alerts on** and explain your choice — what each one catches and what it threatens.
 
+
+Note: if the system doesn't expose Prometheus metrics itself, add a separate exporter for it.
+
 The tool is up to you.
 
 ## What to submit

@@ -53,6 +53,9 @@ Demonstrating the mechanism is enough — you don't need to run real volumes.
 
 Set up monitoring for your cluster. **Decide yourself which metrics matter on the dashboard**, build a dashboard from them, and then **pick 3 metrics you'd build alerts on** and explain your choice — what each one catches and what it threatens.
 
+
+Note: if the system doesn't expose Prometheus metrics itself, add a separate exporter for it.
+
 The monitoring tool is up to you.
 
 ---

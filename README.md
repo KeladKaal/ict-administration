@@ -17,7 +17,7 @@
 3. [Базы данных](lecture-3-databases/) — PostgreSQL/MySQL: доступы, репликация, бэкапы, миграции
 4. [Брокеры сообщений и кэш](lecture-4-brokers-cache/) — Kafka, RabbitMQ, Redis
 5. [Поиск и логирование](lecture-5-search-logging/) — Elasticsearch / ELK
-6. [Хранилище, доставка и безопасность](lecture-6-storage-delivery-security/) — S3, CDN, nginx, секреты
+6. [GitLab, nginx и доступы](lecture-6-gitlab-nginx-access/) — self-hosted GitLab и CI/CD, nginx, Keycloak (SSO)
 7. [AI-инфраструктура](lecture-7-ai-infrastructure/) — агенты, инструменты, MCP, n8n, хостинг и стоимость
 
 ## Лабораторные

@@ -1,9 +1,19 @@
-# Lecture 1 — Introduction, the devops role, GitLab + CI/CD
+# Lecture 1 — Introduction
 
-What devops actually does, and how code gets from a repository to production.
+The first lecture is organizational and an overview. How the course is structured, the schedule, requirements and how labs are submitted — we go over that in class; those details live outside the repository. Here is a short course plan so you can see where we're heading.
 
-**Block 1 — Introduction.** What the course is about, which systems we'll cover and why, how lectures are structured, and what you'll be able to do by the end.
+## What the course is about
 
-**Block 2 — The devops role and context.** devops vs developer: what it means to run a system for someone else. The cross-cutting ideas that come back in every topic — access, backups, fault tolerance, updates, monitoring.
+The course is about the systems that **devops sets up and keeps running so that developers can build on top of them**: databases, brokers, search, storage, monitoring and AI infrastructure. The running idea: *devops configures it, developers use it.* Every topic follows one template: what it is → why a developer needs it → what devops sets up → common problems.
 
-**Block 3 — GitLab + CI/CD.** Repositories, pipelines, and runners (shared vs specific, how they register, docker/shell executors). How a commit turns into a running app.
+## Course plan
+
+1. **Introduction** — course organization and its plan (this lecture).
+2. **Monitoring and observability** — Prometheus, Grafana, metrics/logs/traces. It comes second because every later lab has a mandatory monitoring part.
+3. **Databases** — PostgreSQL/MySQL: access, replication, backups, migrations.
+4. **Message brokers and cache** — Kafka, RabbitMQ, Redis.
+5. **Search and logging** — Elasticsearch / ELK.
+6. **Storage, delivery and security** — S3, CDN, nginx, secrets.
+7. **AI infrastructure** — agents, tools, MCP, n8n, hosting and cost.
+
+Each lecture has a hands-on lab; every lab includes a mandatory part on monitoring the system you deployed.

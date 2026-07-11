@@ -53,9 +53,9 @@ You must run the whole thing locally and demonstrate it working end to end.
 
 ## Part 4 — Monitoring (mandatory)
 
-Set up monitoring for your system and pick **3 key graphs (metrics)** you'd realistically build alerts on. For an AI workflow the natural candidates are: successful/failed workflow runs, token usage and cost of model calls, latency and errors of LLM/agent calls. Pick **three**, chart them, and in the README explain **why each one needs an alert**.
+Set up monitoring for your system. **Decide yourself which metrics matter on the dashboard**, build a dashboard from them, and then **pick 3 metrics you'd build alerts on** and explain your choice.
 
-The tool is up to you (n8n's metrics, an LLM gateway with usage stats, Prometheus + Grafana, etc.).
+The tool is up to you.
 
 ---
 

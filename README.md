@@ -12,7 +12,7 @@ No deep prior knowledge needed — just basic command line and Docker.
 
 Seven lectures, 1.5 hours each. Every lecture has three short blocks (~25–30 min). Click a lecture to see what's inside.
 
-1. [Introduction, the devops role, GitLab + CI/CD](lecture-1-introduction/) — what the course is about and how code gets to production
+1. [Introduction](lecture-1-introduction/) — course organization and a short plan
 2. [Monitoring and observability](lecture-2-monitoring-observability/) — Prometheus, Grafana, metrics/logs/traces
 3. [Databases](lecture-3-databases/) — PostgreSQL/MySQL: access, replication, backups, migrations
 4. [Message brokers and cache](lecture-4-brokers-cache/) — Kafka, RabbitMQ, Redis
@@ -24,7 +24,7 @@ Seven lectures, 1.5 hours each. Every lecture has three short blocks (~25–30 m
 
 You can run the infrastructure in the labs (databases, clusters, services) **however you prefer** — locally via Docker / `docker compose`, or in Kubernetes. The choice is yours and is not spelled out in each lab. What matters is that it runs locally and you can show it works.
 
-**Mandatory in every lab — monitoring.** Every lab requires setting up monitoring for the system you deployed and picking **3 key graphs (metrics)** you'd realistically build alerts on — with an explanation of why those three. Monitoring is covered in lecture 2, so from there on it runs as a cross-cutting theme in every lab.
+**Mandatory in every lab — monitoring.** Every lab requires setting up monitoring for the system you deployed, deciding yourself which metrics to put on a dashboard, and picking **3 metrics you'd build alerts on** — with a rationale. Monitoring is covered in lecture 2, so from there on it runs as a cross-cutting theme in every lab.
 
 ## Using AI for the labs
 

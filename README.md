@@ -17,7 +17,7 @@ Seven lectures, 1.5 hours each. Every lecture has three short blocks (~25–30 m
 3. [Databases](lecture-3-databases/) — PostgreSQL/MySQL: access, replication, backups, migrations
 4. [Message brokers and cache](lecture-4-brokers-cache/) — Kafka, RabbitMQ, Redis
 5. [Search and logging](lecture-5-search-logging/) — Elasticsearch / ELK
-6. [Storage, delivery and security](lecture-6-storage-delivery-security/) — S3, CDN, nginx, secrets
+6. [GitLab, nginx and access](lecture-6-gitlab-nginx-access/) — self-hosted GitLab and CI/CD, nginx, Keycloak (SSO)
 7. [AI infrastructure](lecture-7-ai-infrastructure/) — agents, tools, MCP, n8n, hosting and cost
 
 ## Labs

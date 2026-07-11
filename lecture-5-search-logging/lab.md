@@ -1,4 +1,4 @@
-# Lab 4 — Deploy ELK and get hands-on with Elasticsearch
+# Lab 5 — Deploy ELK and get hands-on with Elasticsearch
 
 ## Goal
 
@@ -49,18 +49,26 @@ Demonstrating the mechanism is enough — you don't need to run real volumes.
 
 ---
 
+## Part 4 — Monitoring (mandatory)
+
+Set up monitoring for your cluster and pick **3 key graphs (metrics)** you'd realistically build alerts on. For Elasticsearch the natural candidates are: cluster status (green/yellow/red), free disk space, JVM heap usage, number of unassigned shards. Pick **three**, chart them, and in the README explain **why each one needs an alert** (what it catches and what it threatens).
+
+The monitoring tool is up to you (Prometheus + exporter + Grafana, the stack's built-in monitoring, etc.).
+
+---
+
 ## What to submit
 
 Put everything in a folder and submit:
 
-1. **`README.md`** — what you did, the key commands and configs (index mapping, ILM policy), how to run it.
+1. **`README.md`** — what you did, the key commands and configs (index mapping, ILM policy), how to run it, and the rationale for the 3 chosen alert metrics.
 2. **Launch configs** — whatever you used to bring up ELK (`docker-compose.yml` or Kubernetes manifests).
-3. **Screenshots** of the key moments: cluster status, a search result, an aggregation/visualization in Kibana, the list of indices after rollover.
+3. **Screenshots** of the key moments: cluster status, a search result, an aggregation/visualization in Kibana, the list of indices after rollover, and the **3 monitoring graphs**.
 
 ---
 
 ## How to start
 
-Open this repository with your AI assistant and ask it to help you with **Lab 4**. The assistant is set up to guide you **step by step** and check your understanding along the way — it won't hand you a finished solution, and that's on purpose. Start with Part 1 (bring up ELK) and go from there.
+Open this repository with your AI assistant and ask it to help you with **Lab 5**. The assistant is set up to guide you **step by step** and check your understanding along the way — it won't hand you a finished solution, and that's on purpose. Start with Part 1 (bring up ELK) and go from there.
 
 > **Using AI?** Make sure your assistant follows the repo's rules in [`AGENTS.md`](../AGENTS.md). Most tools pick it up automatically; if yours doesn't, point it at that file and ask it to follow it.

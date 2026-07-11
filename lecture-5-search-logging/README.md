@@ -164,4 +164,4 @@ Key metrics: cluster state, free disk space, JVM heap usage, number of unassigne
 
 ## Lab
 
-[Lab 4 — Deploy ELK and get hands-on with Elasticsearch](lab.md): run Elasticsearch + Kibana locally, load logs, search and aggregate, work through shards/replicas/cluster status, and set up a minimal ILM + rollover.
+[Lab 5 — Deploy ELK and get hands-on with Elasticsearch](lab.md): run Elasticsearch + Kibana locally, load logs, search and aggregate, work through shards/replicas/cluster status, and set up a minimal ILM + rollover.

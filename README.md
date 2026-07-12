@@ -14,8 +14,8 @@ Seven lectures, 1.5 hours each. Every lecture has three short blocks (~25–30 m
 
 1. [Introduction](lecture-1-introduction/) — course organization and a short plan
 2. [Monitoring and observability](lecture-2-monitoring-observability/) — Prometheus, Grafana, metrics/logs/traces
-3. [Databases](lecture-3-databases/) — PostgreSQL/MySQL: access, replication, backups, migrations
-4. [Message brokers and cache](lecture-4-brokers-cache/) — Kafka, RabbitMQ, Redis
+3. [Message brokers and cache](lecture-3-brokers-cache/) — Kafka, RabbitMQ, Redis
+4. [Databases](lecture-4-databases/) — PostgreSQL/MySQL: access, replication, backups, migrations
 5. [Search and logging](lecture-5-search-logging/) — Elasticsearch / ELK
 6. [GitLab, nginx and access](lecture-6-gitlab-nginx-access/) — self-hosted GitLab and CI/CD, nginx, Keycloak (SSO)
 7. [AI infrastructure](lecture-7-ai-infrastructure/) — agents, tools, MCP, n8n, hosting and cost

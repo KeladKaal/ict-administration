@@ -1,4 +1,4 @@
-# Lecture 4 — Message brokers and cache
+# Lecture 3 — Message brokers and cache
 
 This lecture is about how services talk to each other without getting in each other's way, and how to speed up a system with a cache. Three heroes: **RabbitMQ**, **Kafka** and **Redis** — all three are usually deployed and run by devops, while developers just use them.
 
@@ -182,7 +182,7 @@ devops watches **memory** (the main resource, `maxmemory` + eviction policy) and
 
 ## Lab
 
-[Lab 4 — Kafka for two services: set it up and configure it from scratch](lab.md): the student writes (or generates) two simple services, stands up and configures Kafka for them **through configuration** (no manual CLI), verifies situations first by editing config (partitions, number of pickers), then through Kafka UI (replay, retention), and sets up monitoring.
+[Lab 3 — Kafka for two services: set it up and configure it from scratch](lab.md): the student writes (or generates) two simple services, stands up and configures Kafka for them **through configuration** (no manual CLI), verifies situations first by editing config (partitions, number of pickers), then through Kafka UI (replay, retention), and sets up monitoring.
 
 ---
 

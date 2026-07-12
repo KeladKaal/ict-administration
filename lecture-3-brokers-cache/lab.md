@@ -1,4 +1,4 @@
-# Lab 4 — Kafka for two services: set it up and configure it from scratch
+# Lab 3 — Kafka for two services: set it up and configure it from scratch
 
 ## The situation
 
@@ -81,6 +81,6 @@ The tool is up to you.
 
 ## How to start
 
-Open this repository with your AI assistant and ask it to help you with **Lab 4**. The assistant is set up to guide you **step by step** and check your understanding — it won't hand you a finished solution, and that's on purpose. Start with Part 1 (sketch the two services).
+Open this repository with your AI assistant and ask it to help you with **Lab 3**. The assistant is set up to guide you **step by step** and check your understanding — it won't hand you a finished solution, and that's on purpose. Start with Part 1 (sketch the two services).
 
 > **Using AI?** Make sure your assistant follows the repo's rules in [`AGENTS.md`](../AGENTS.md). Most tools pick it up automatically; if yours doesn't, point it at that file and ask it to follow it.

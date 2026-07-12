@@ -1,4 +1,4 @@
-# Lecture 3 — Databases
+# Lecture 4 — Databases
 
 The database is the heart of almost any application: orders, users and payments all live there. devops stands it up and takes care of it, while developers use it. A service can be restarted, but data can't — so everything around the database (access, replication, backups, monitoring) is on us.
 
@@ -158,6 +158,6 @@ Multi-document transactions appeared in Mongo in version 4.0 — but they're nee
 
 ## Lab
 
-**[Lab 3 — Database replication: stand it up, break it, recover](lab.md)**
+**[Lab 4 — Database replication: stand it up, break it, recover](lab.md)**
 
 Your choice of PostgreSQL or MongoDB: you stand up replication, split reads from writes, catch **replication lag**, tie it to the **CAP theorem**, and survive a **failover** (manual in Postgres, automatic in Mongo). Plus the mandatory monitoring: your own dashboard and 3 metrics to alert on.

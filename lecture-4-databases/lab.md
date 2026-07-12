@@ -1,4 +1,4 @@
-# Lab 3 — Database replication: stand it up, break it, recover
+# Lab 4 — Database replication: stand it up, break it, recover
 
 ## Scenario
 
@@ -95,6 +95,6 @@ The tooling is up to you.
 
 ## How to start
 
-Open this repository with your AI assistant and ask for help with **Lab 3**. The assistant is set up to guide you **step by step** and check your understanding — it deliberately won't hand out a finished solution. Start with Part 0 (choose a database) and Part 1 (stand up replication).
+Open this repository with your AI assistant and ask for help with **Lab 4**. The assistant is set up to guide you **step by step** and check your understanding — it deliberately won't hand out a finished solution. Start with Part 0 (choose a database) and Part 1 (stand up replication).
 
 > **Using AI?** Make sure your assistant follows the repository rules in [`AGENTS.md`](../AGENTS.md). Most tools pick it up automatically; if yours didn't — just point it at this file and ask it to follow it.

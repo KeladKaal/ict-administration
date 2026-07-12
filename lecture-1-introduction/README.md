@@ -10,10 +10,10 @@ The course is about the systems that **devops sets up and keeps running so that 
 
 1. **Introduction** — course organization and its plan (this lecture).
 2. **Monitoring and observability** — Prometheus, Grafana, metrics/logs/traces. It comes second because every later lab has a mandatory monitoring part.
-3. **Databases** — PostgreSQL/MySQL: access, replication, backups, migrations.
-4. **Message brokers and cache** — Kafka, RabbitMQ, Redis.
+3. **Message brokers and cache** — Kafka, RabbitMQ, Redis.
+4. **Databases** — PostgreSQL/MySQL: access, replication, backups, migrations.
 5. **Search and logging** — Elasticsearch / ELK.
-6. **Storage, delivery and security** — S3, CDN, nginx, secrets.
+6. **GitLab, nginx and access** — self-hosted GitLab and CI/CD, nginx, Keycloak (SSO).
 7. **AI infrastructure** — agents, tools, MCP, n8n, hosting and cost.
 
 Each lecture has a hands-on lab; every lab includes a mandatory part on monitoring the system you deployed.

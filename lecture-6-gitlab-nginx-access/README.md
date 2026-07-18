@@ -72,6 +72,12 @@ Write and maintain the config (upstreams, routes, TLS), renew certificates, watc
 
 There are many internal tools: GitLab, Grafana, Kibana, n8n… If each has its own users and passwords, it's chaos: onboarding a new employee means 10 accounts, offboarding means revoking access 10 times, and everyone has a different password everywhere. You need **single sign-on**.
 
+### What SSO and an IdP are
+
+> **SSO (Single Sign-On)** — a single login: the user logs in once and gets access to all applications without entering the password again.
+
+The idea: login is moved out of every application into one separate system — an **identity provider (IdP)** — which the applications trust. On login an application redirects the user to the IdP and gets back a confirmation of who they are. It works over standard protocols (OIDC, SAML), so ready-made tools can be put behind single sign-on without rewriting them. The payoff: one password instead of a dozen, access managed in one place, and the ability to turn on 2FA for everything at once.
+
 ### What Keycloak is
 
 > **Keycloak** — an open-source identity and access management (IAM) system. It provides **single sign-on (SSO)** into all applications via the standard **OIDC** (OpenID Connect) and **SAML** protocols.

@@ -47,6 +47,12 @@ In our example user-service just publishes one "order created" event to the brok
 - **Asynchrony.** user-service doesn't wait for the order to be assembled and delivered.
 - **Reliable delivery.** The broker keeps a message until it's picked up; picker-service restarted — the message will wait.
 
+Reliability rests on **acknowledgements (ack)**: until the consumer confirms it processed a message, the message counts as undelivered and will be handed out again. Hence three levels of **delivery guarantees**:
+
+- **at-most-once** — a message may be lost, but there will be no duplicate;
+- **at-least-once** — no loss, but duplicates are possible, so the handler must be idempotent; this is the most common mode;
+- **exactly-once** — neither loss nor duplicates, but it's the most expensive and isn't supported everywhere.
+
 ### Two basic patterns
 
 - **Queue.** A message is taken by **one** of the recipients — work is split among them. Example: the task "assemble order #123" should be taken by **one** picker on shift, not all at once.

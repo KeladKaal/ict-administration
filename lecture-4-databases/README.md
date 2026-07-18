@@ -124,6 +124,8 @@ The main shift in thinking. In a relational DB an order, its line items and its 
 - **Replica set** — a set of copies: one **primary** accepts writes, several **secondaries** repeat them; primary goes down — the nodes elect a new one (elections).
 - **Sharding** — data is split by a **shard key** and spread across shards → horizontal scale. Choosing the shard key correctly is critical: a bad key creates load skew.
 
+**Sharding ≠ replication.** Replication is *copies of the same data* (for reliability and reads), while sharding is *different data on different nodes* (for scale, when the volume or load won't fit on one server). In practice they're combined: each shard is itself a small replica set. And it's not only about Mongo — sharding exists in PostgreSQL (via Citus), Cassandra, Elasticsearch; the principle is the same everywhere.
+
 ### SQL vs MongoDB
 
 | | Relational (SQL) | MongoDB (document) |

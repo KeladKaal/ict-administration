@@ -165,3 +165,7 @@ Models run on **GPUs**, not ordinary servers — so your own model needs GPUs. T
 ## Lab
 
 [Lab 7 — Automating a DevOps process with n8n + AI](lab.md): design a real automation use-case and build it in n8n with MCP servers, an AI toolkit and skills, then run it locally.
+
+## Further reading
+
+- [What an AI agent is and what parts it's made of](https://habr.com/ru/articles/951428/) (Habr, in Russian) — a breakdown of an agent's anatomy: the LLM as the "brain", tools, prompts, memory and planning. A good complement to sections 2–3.

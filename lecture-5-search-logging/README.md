@@ -1,4 +1,4 @@
-# Lecture 4 — Search and logging (Elasticsearch)
+# Lecture 5 — Search and logging (Elasticsearch)
 
 Elasticsearch is a distributed search and analytics engine built on the Apache Lucene library. In infrastructure it covers two jobs: full-text search inside products, and centralized collection and analysis of logs. This README is a self-contained summary — the material is laid out so you can learn it without the lecture. Structure: purpose and use cases → terminology → statuses and operations.
 

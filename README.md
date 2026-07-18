@@ -4,7 +4,7 @@
 
 A hands-on course for people starting out in devops.
 
-We look at the systems a devops engineer sets up and keeps running so that developers can build on top of them — databases, message brokers, search, storage, monitoring, and more. The idea is simple: **devops configures it, developers use it.** By the end you'll understand what these systems are, why developers need them, and what it takes to run them well (access, backups, monitoring, and the problems that come up).
+We look at the systems a devops engineer sets up and keeps running so that developers can build on top of them — databases, message brokers, search, monitoring, and more. The idea is simple: **devops configures it, developers use it.** By the end you'll understand what these systems are, why developers need them, and what it takes to run them well (access, backups, monitoring, and the problems that come up).
 
 No deep prior knowledge needed — just basic command line and Docker.
 

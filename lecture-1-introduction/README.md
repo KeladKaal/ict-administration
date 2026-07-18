@@ -4,7 +4,7 @@ The first lecture is organizational and an overview. How the course is structure
 
 ## What the course is about
 
-The course is about the systems that **devops sets up and keeps running so that developers can build on top of them**: databases, brokers, search, storage, monitoring and AI infrastructure. The running idea: *devops configures it, developers use it.* Every topic follows one template: what it is → why a developer needs it → what devops sets up → common problems.
+The course is about the systems that **devops sets up and keeps running so that developers can build on top of them**: databases, brokers, search, monitoring and AI infrastructure. The running idea: *devops configures it, developers use it.* Every topic follows one template: what it is → why a developer needs it → what devops sets up → common problems.
 
 ## Course plan
 
@@ -16,4 +16,4 @@ The course is about the systems that **devops sets up and keeps running so that 
 6. **GitLab, nginx and access** — self-hosted GitLab and CI/CD, nginx, Keycloak (SSO).
 7. **AI infrastructure** — agents, tools, MCP, n8n, hosting and cost.
 
-Each lecture has a hands-on lab; every lab includes a mandatory part on monitoring the system you deployed.
+Almost every lecture has a hands-on lab (except this introductory one); every lab includes a mandatory part on monitoring the system you deployed.
